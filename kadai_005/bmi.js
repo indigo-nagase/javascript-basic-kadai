@@ -4,4 +4,5 @@ const weight = 68;
 const height = 1.7;
 
 // BMIの計算と表示
-console.log(weight / (height * height));
+const bmi = weight / (height * height)
+console.log(bmi);
